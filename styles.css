@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+html{
+    height: 100%;
+    margin: auto;
+    overflow: auto;
+}
+p {
+    height: 100%;
+    margin: auto;
+    
+    font-size: 48px;
+    font-family: monospace;
+}
+
+
+body {
+    
+    margin: 0;
+    overflow: hidden;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    background-color: burlywood;
+    align-items: center;
+    
+}
+
+.numbers {
+    background-color: #cc6d00; 
+    border: black ;
+    border-style: solid;
+    border-width: 2px;
+}
+.numbers:active {
+
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+button {
+    width: 100px;
+    height: 80px;
+    color: white;
+    border: none;
+    text-align: center;
+    padding: 12px 28px;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 6px 4px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+
+
+button:hover {
+    box-shadow: 0 14px 18px 0 #333333, 0 17px 50px 0 #333333; 
+
+} 
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.buttonContainer {
+    height: 500px;
+    width: 450px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.functions, .clear, .equal {
+    font-size: 30px;
+    background-color: #00CC66;
+    border: black ;
+    border-style: solid;
+    border-width: 4px;
+    padding: 5px;
+}
+.equal:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.functions:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}    
+
+.clear:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+.displayContainer {
+    font-family: sans-serif;
+    font-size: 50px;
+    width: 450px;
+    height: 100px;
+    display: flex;
+    color: black;
+    border-color: black;
+    border-radius: 12px;
+    background: #ffffff;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-style: solid;
+    border-width: 4px;
+}
+
+.ongoingDisplay {
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    color: black;
+    border-color: black;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}

@@ -1,4 +1,4 @@
 # Calculator #
 
-Click the link below: 
+Click the link: 
 https://etokruto.github.io/Calculator/
